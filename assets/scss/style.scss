@@ -1,0 +1,75 @@
+@import "./partials/variables";
+.position{
+    position: relative;
+    width: 14%;
+ input{
+    height: 40px;
+    width:  200px;
+    border: 0px;
+    border-radius: 5px;
+input:focus {
+    outline: none;
+}
+}
+    .las{
+        position:absolute ;
+        right: 10px;
+        top: 10px;
+        font-size: $las;
+      transform: rotate(270deg);
+
+      color:$las-color;
+      &:hover{
+        color: orangered;
+      }
+      }
+    }
+
+ nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:  100%;
+    height: 70px;
+    
+  a{
+    text-decoration: none;
+  }
+}
+   ul{
+      display: flex;
+      justify-content: space-around;
+      
+     li{
+        list-style: none;
+        margin-left: 12px;
+     
+        
+        a{
+            text-decoration: none;
+            color: $textcolor;
+             }
+     }
+   }
+  nav{
+    img{
+        width: 50px;
+        border-radius: 50%;
+    }
+   
+  }
+  .hassublime{
+    position: absolute;
+    display: none;
+    
+  }
+  .sublime {
+
+ position: relative;
+&:hover{
+    .hassublime {display: block;
+        
+  }
+
+  }
+}

@@ -1,0 +1,65 @@
+.position {
+  position: relative;
+  width: 14%;
+}
+.position input {
+  height: 40px;
+  width: 200px;
+  border: 0px;
+  border-radius: 5px;
+}
+.position input input:focus {
+  outline: none;
+}
+.position .las {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  transform: rotate(270deg);
+  color: rgb(100, 176, 230);
+}
+.position .las:hover {
+  color: orangered;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+}
+nav a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+  margin-left: 12px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.hassublime {
+  position: absolute;
+  display: none;
+}
+
+.sublime {
+  position: relative;
+}
+.sublime:hover .hassublime {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
